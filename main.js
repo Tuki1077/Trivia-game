@@ -12,7 +12,9 @@ trivia = {
         "What kind of food was the character Pac Man modelled on?",
         "What's the best selling handheld gaming system to date?",
         "What is the name of the fictional world that 'Super Mario Bros' is set in?",
-        "Who is the first character you defeat in Super Mario?"
+        "Who is the first character you defeat in Super Mario?",
+        "From which game is (summoners rift) from?",
+        "Who is Mario's brother?"
 
     ],
     answers : [
@@ -80,6 +82,16 @@ trivia = {
             "Bowser JR.": false,
             "Bowser": true,
             "Koopa Troopa": false
+        },
+        {
+            "League of legends": true,
+            "World of Warcraft": false,
+            "Dota": false
+        },
+        {
+            "Pikachu": false,
+            "Bowser": false,
+            "Luigi": true
         }
     ]
 }
