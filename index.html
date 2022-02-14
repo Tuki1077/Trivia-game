@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html style = "background: lightblue">
   <head>
-      Gaming trivia
+      <title>Trivia</title>
       <link rel = "stylesheet" href = "styles.css">
+      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src = "main.js"></script>
   </head>
   <body onload="displayQuestions()"> 
-    <script src = "main.js"></script>
-    <div id = "Header" class = "top-bar">
-      <h1> Welcome to Gaming Trivia </h1>
+    <header>
+        <div id = "Header" class = "top-bar">
+            <h1>Welcome to Gaming Trivia</h1>
+        </div>
+        <button onclick = "location.reload()"> Play Again </button>
+    </header>
+    <div class = "card">
+        <div id = "option" class = "question_container"></div>
     </div>
     <div>
-        <div id = "option" class = "questions_container"></div>
+        <div id = "option"></div>
     </div>
     <div class = "center">
-        <button onclick="grade()">Submit Answers</button>
+        <button class = "button" onclick="grade()">Submit Answers</button>
     </div>
+    <div id = "score"></div>
   </body>
