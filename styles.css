@@ -2,10 +2,10 @@ button {
     color:blue;
     width:190px;
     height:36px
-  }
+}
   
-  .top-bar {
-    display: block;
-    padding: 8px;
-    background-color: lightgreen;
-  }
+.top-bar {
+display: block;
+padding: 8px;
+background-color: lightgreen;
+}

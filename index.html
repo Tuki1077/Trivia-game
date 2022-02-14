@@ -4,9 +4,15 @@
       Gaming trivia
       <link rel = "stylesheet" href = "styles.css">
   </head>
-  <body> 
+  <body onload="displayQuestions()"> 
+    <script src = "main.js"></script>
     <div id = "Header" class = "top-bar">
       <h1> Welcome to Gaming Trivia </h1>
     </div>
-    <div id = "root"></div>
+    <div>
+        <div id = "option" class = "questions_container"></div>
+    </div>
+    <div class = "center">
+        <button onclick="grade()">Submit Answers</button>
+    </div>
   </body>
