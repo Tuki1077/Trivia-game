@@ -14,84 +14,135 @@ trivia = {
         "What is the name of the fictional world that 'Super Mario Bros' is set in?",
         "Who is the first character you defeat in Super Mario?",
         "From which game is (summoners rift) from?",
-        "Who is Mario's brother?"
+        "Who is Mario's brother?",
+        "What is the name of Charmander's (pokemon) final evolution?",
+        "What was the first video game console to be offered by an American company since Atari?",
+        " What was the first mobile phone game?",
+        "Which famous video game franchise is the game 'V-Bucks' from?",
+        "Which French video game company is publishing the 'Far Cry' series?"
+
 
     ],
     answers : [
         {
             "Rocket League" : true,
             "Fifa 22": false,
-            "Forza Horizon 5": false
+            "Forza Horizon 5": false,
+            "Need for speed": false
         },
         {
             "DK jungle": false,
             "Rainbow Road": true,
             "Moo Moo Meadows": false,
+            "Luigi's mansion": false
         },
         {
             "Pokemon": true,
             "GTA": false,
-            "COD": false
+            "COD": false,
+            "The legends of Zelda": false
         },
         {
             "Xenoblade": false,
             "The legend of zelda": true,
-            "League of legends": false
+            "League of legends": false,
+            "Kingdom Hearts": false
         },
         {
             "Mario": true,
             "Sonic": false,
-            "Link": false
+            "Link": false,
+            "Luigi": false
         },
         {
             "John Madden": true,
             "Fifa": false,
-            "NBA 2K": false
+            "NBA 2K": false,
+            "Tony Hawk": false
         },
         {
             "Catch Ball": false,
             "Pokeball": true,
-            "Pokemonball": false
+            "Pokemonball": false,
+            "Super catch ball": false
         },
         {
             "Mixing lava with grass": false,
             "Mixing sand and water": false,
-            "Mixing water with lava": true
+            "Mixing water with lava": true,
+            "Mixing torch and glass": false
         },
         {
             "Call of duty MW2": false,
             "Minecraft": true,
-            "Mario party": false
+            "Mario party": false,
+            "Mario kart": false
         },
         {
             "Cheese": false,
             "Pizza": true,
-            "Pie": false
+            "Pie": false,
+            "Cookie": false
         },
         {
             "Nintendo 3DS": false,
             "Gameboy color": false,
-            "Nintendo DS": true
+            "Nintendo DS": true,
+            "Sony psp": false
         },
         {
             "Mushroom Kingdom": true,
             "Princess world": false,
-            "Koopa's world": false
+            "Koopa's world": false,
+            "Mario bro's world": false        
         },
         {
             "Bowser JR.": false,
             "Bowser": true,
-            "Koopa Troopa": false
+            "Koopa Troopa": false,
+            "Princess peach": false
         },
         {
             "League of legends": true,
             "World of Warcraft": false,
-            "Dota": false
+            "Dota": false,
+            "Overwatch": false
         },
         {
             "Pikachu": false,
             "Bowser": false,
-            "Luigi": true
+            "Luigi": true,
+            "Toad": false
+        },
+        {
+            "Blastoise": false,
+            "Venusaur": false,
+            "Raichu": false,
+            "Charizard": true
+        },
+        {
+            "PS3": false,
+            "Nintendo wii": false,
+            "PC": false,
+            "XBOX": true
+        },
+        {
+            "Pong": false,
+            "Hockey": false,
+            "Ping pong": false,
+            "Tetris": true
+        },
+        {
+            "Warzone": false,
+            "Destiny": false,
+            "Splatoon": false,
+            "Fortnite": true
+        },
+        {
+            "Samsung": false,
+            "Sony": false,
+            "Microsoft": false,
+            "Ubisoft": true
         }
     ]
 }
@@ -100,7 +151,7 @@ function displayQuestions(){
     var arr = [];
     var ans = [];
     for (let i = 0; i < 5; i++){
-        let Num = Math.floor(Math.random() * 13);
+        let Num = Math.floor(Math.random() * 20);
         arr.push(trivia.questions[Num]);
         ans.push(trivia.answers[Num]);
     }
