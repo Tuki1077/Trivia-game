@@ -30,8 +30,8 @@ trivia = {
         },
         {
             "Pokemon": true,
-            "GTA V": false,
-            "COD BO2": false
+            "GTA": false,
+            "COD": false
         },
         {
             "Xenoblade": false,
