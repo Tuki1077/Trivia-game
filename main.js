@@ -6,7 +6,7 @@ trivia = {
         "[Kingdom Of Hyrule] is the main setting for which classic video game franchise?",
         "Who is the most famous video game character of all time?",
         "The most popular sports video game of all time is named after which former professional coach?",
-        "What is the name of the circular object used to collect Pokémon?",
+        "What is the name of the circular object used to collect Pokemon?",
         "How do you make obsidian in Minecraft?",
         "What's the best selling video game of all time?",
         "What kind of food was the character Pac Man modelled on?",
