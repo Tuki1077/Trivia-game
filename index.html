@@ -7,19 +7,18 @@
   </head>
   <body onload="displayQuestions()"> 
     <header>
-        <div id = "Header" class = "top-bar">
-            <h1>Welcome to Gaming Trivia</h1>
-        </div>
-        <button onclick = "location.reload()"> Play Again </button>
+        <h1>Welcome to Gaming Trivia</h1>
+        <img src = "https://www.wpp.com/-/media/project/wpp/images/voices/gaming-wt-intelligence.jpg?width=1600&height=900">
     </header>
     <div class = "card">
-        <div id = "option" class = "question_container"></div>
+        <div id = "option"></div>
     </div>
     <div>
         <div id = "option"></div>
     </div>
     <div class = "center">
-        <button class = "button" onclick="grade()">Submit Answers</button>
+        <button class = "myButton" onclick="grade()">Submit Answers</button>
+        <button class = "myButton" onclick = "location.reload()"> Play Again </button>
     </div>
     <div id = "score"></div>
   </body>

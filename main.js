@@ -118,13 +118,13 @@ function displayQuestions(){
         for (let j = 0; j < options.length; j++) {
             let input = document.createElement("input");
             let label = document.createElement("label");
-            option.appendChild(div);
-            input.setAttribute("type", "radio");
-            input.setAttribute("name", "option"+i);
-            input.setAttribute("id", options[j]);
-            input.setAttribute("value", correct[j]);
-            label.setAttribute("for", options[j]);
-            label.innerHTML = options[j];
+                option.appendChild(div);
+                input.setAttribute("type", "radio");
+                input.setAttribute("name", "option"+i);
+                input.setAttribute("id", options[j]);
+                input.setAttribute("value", correct[j]);
+                label.setAttribute("for", options[j]);
+                label.innerHTML = options[j];
             div.appendChild(input);
             div.appendChild(label);
         }
@@ -163,15 +163,15 @@ function grade(){
             }
         }
     }
-    let div1 = document.getElementById('score');
-    div1.classList.add('score_container');
-    let h2 = document.createElement('h2');
-    h2.innerHTML = "Your final score is: "+score+"... Congratulations!";
-    div1.appendChild(h2);
+    let mydiv1 = document.getElementById('score');
+        mydiv1.classList.add('score_container');
+    let myh2 = document.createElement('h2');
+        myh2.innerHTML = "Your final score is: "+score+"/100... Congratulations!";
+    mydiv1.appendChild(myh2);
     for (let i = 0; i < correcAns.length; i++){
         let p = document.createElement('p');
         p.classList.add('wrong');
         p.innerHTML = "Correct answer: "+correcAns[i];
-        div1.appendChild(p);
+        mydiv1.appendChild(p);
     }
 }
